@@ -1,0 +1,32 @@
+/* Write your code here. */
+.navbarContainer {
+  background-color: #9796f0;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 4rem;
+  color: #ffffff;
+}
+.logoContainer,
+.scoreContainer {
+  display: flex;
+  align-self: center;
+}
+.logoContainer {
+  gap: 10px;
+}
+.scoreContainer {
+  gap: 2rem;
+}
+.logoContainer > h1,
+.scoreContainer > p {
+  align-self: center;
+  font-weight: 600;
+  font-size: 18px;
+}
+.logoContainer > img {
+  width: 20%;
+}
+.hideScore {
+  display: none;
+}

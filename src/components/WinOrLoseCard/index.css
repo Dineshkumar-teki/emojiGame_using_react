@@ -1,0 +1,40 @@
+/* Write your code here. */
+.loseContainer {
+  display: flex;
+  width: 100%;
+  background-color: #9796f0;
+  border: 2px solid #ffffff30;
+  border-radius: 20px;
+  justify-content: space-between;
+  padding: 2.5rem 1.8rem;
+}
+.loseContainer img {
+  width: 50%;
+}
+.scoreCard {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+.scoreCard h1 {
+  font-size: 38px;
+  font-weight: 600;
+}
+.scoreCard p {
+  font-size: 42px;
+  font-weight: 600;
+  color: #6a59ff;
+}
+.scoreCard button {
+  background-color: #ffce27;
+  border-radius: 10px;
+  border: 0 solid;
+  outline: none;
+  color: black;
+  font-size: 14px;
+  padding: 7px 8px;
+  width: 60%;
+}
